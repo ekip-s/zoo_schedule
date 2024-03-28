@@ -1,0 +1,21 @@
+.listnode {
+  table-layout: fixed;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-collapse: collapse;
+  color: white;
+  width: 86%;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid;
+}
+
+tr:hover {
+  color: rgba(255, 255, 0, 0.582);
+}
+
+.headertable h2 {
+  color: rgba(0, 0, 0, 0.61);
+}

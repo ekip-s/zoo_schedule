@@ -1,0 +1,12 @@
+.imgfooter {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgfooter img {
+  background-color: #565658;
+  height: 150px;
+  width: 150px;
+}

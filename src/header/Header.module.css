@@ -1,0 +1,65 @@
+img {
+  height: 35px;
+  width: 35px;
+  background-color: #373739;
+}
+
+img:hover {
+  text-shadow: 10px 5px 5px red;
+}
+
+header {
+  background-color: #373739;
+  height: 50px;
+}
+
+h1 {
+  background-color: #373739;
+  color: white;
+  text-shadow: rgba(255, 255, 255, 0.719) 1px 0 10px;
+  width: max-content;
+}
+
+.appheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  background-color: #373739;
+  margin-right: 5%;
+}
+
+.box {
+  display: flex;
+  background-color: #373739;
+}
+
+.boxnode {
+  cursor: default;
+  background-color: #373739;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  height: 60%;
+}
+
+.boxnode h3 {
+  margin-right: 5px;
+  background-color: #373739;
+  color: white;
+}
+
+.boxnode:hover {
+  border-bottom: 1px solid;
+}
+
+.not_active {
+  opacity: 0.3;
+}
+
+.day {
+  height: 16px;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+}
